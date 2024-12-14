@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Product A",
+        "description": "A cool product",
+        "thumbnail_url": "http://example.com/image_a.png",
+        "base_url": "https://partner.api/product_a",
+        "price": 100,
+        "archived": false
+    },
+    {
+        "id": 2,
+        "name": "Product B",
+        "description": "A powerful gadget",
+        "thumbnail_url": "http://example.com/image_b.png",
+        "base_url": "https://partner.api/product_b",
+        "price": 200,
+        "archived": false
+    },
+    {
+        "id": 3,
+        "name": "Product C",
+        "description": "An innovative device",
+        "thumbnail_url": "http://example.com/image_c.png",
+        "base_url": "https://partner.api/product_c",
+        "price": 300,
+        "archived": false
+    },
+    {
+        "id": 4,
+        "name": "Product D",
+        "description": "A modern accessory",
+        "thumbnail_url": "http://example.com/image_d.png",
+        "base_url": "https://partner.api/product_d",
+        "price": 150,
+        "archived": false
+    },
+    {
+        "id": 5,
+        "name": "Product E",
+        "description": "A sleek and stylish item",
+        "thumbnail_url": "http://example.com/image_e.png",
+        "base_url": "https://partner.api/product_e",
+        "price": 250,
+        "archived": false
+    }
+]
