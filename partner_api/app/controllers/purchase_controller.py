@@ -4,8 +4,7 @@ import json
 from json import JSONDecodeError
 import time
 
-#BASE_URL = "http://127.0.0.1:8000"
-BASE_URL = "http://ww_api:8000"
+BASE_URL = "http://127.0.0.1:8000"
 file_path = "list_purchase.json"
 
 def create_purchase(product_id: int, user_id: int):

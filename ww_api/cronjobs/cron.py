@@ -17,7 +17,7 @@ def process_cashback():
 
 def cron_job_get_purchase():
     """Start cron job"""
-    schedule.every(1).seconds.do(process_cashback)
+    schedule.every(10).minutes.do(process_cashback)
     while True:
         schedule.run_pending()
         time.sleep(1)
