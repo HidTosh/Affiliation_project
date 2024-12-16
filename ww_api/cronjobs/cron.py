@@ -20,7 +20,7 @@ def cron_job_get_purchase():
     schedule.every(10).minutes.do(process_cashback)
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        time.sleep(10)
 
 thread = threading.Thread(target=cron_job_get_purchase, daemon=True)
 thread.start()
